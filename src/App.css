@@ -1,33 +1,85 @@
-.App {
+* {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: fixed linear-gradient(#0ac88f, #00c8b3);
+  font-family: "Patrick Hand", cursive;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+}
+
+h2 {
+  font-size: 4rem;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+p, a, span, strong {
+  font-size: 1.6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  margin: 1rem auto;
+  max-width: 700px;
 }
 
-.App-link {
-  color: #61dafb;
+strong {
+  font-weight: 800;
+  font-family: "Shadows Into Light", cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 1rem;
+  text-decoration: none;
+  color: #111;
+  background: #fbc398;
+  border-radius: 50px;
+  border: 2px solid brown;
+  max-width: 10rem;
+  margin: 1rem auto;
+  display: block;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #fbd9b3;
+}
+
+.center {
+  text-align: center;
 }
