@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -81,7 +82,9 @@ Alejandro Pérez
 70211 gold badge88 silver badges1313 bronze badges
 8
 Never bind an external event handler inside a render method. Rendering methods (and any other custom methods you call from render in the same thread) </p>
+<Footer />
     </div>
+    
   );
 }
 

@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  footer {
+    clear: both;
+    background: linear-gradient(rgba(251, 195, 152, 0.1), #fbc398, #fbd9b3);
+    padding-top: 4rem;
+  }
+  footer img {
+    width: 60px;
+    align-self: flex-end;
+  }
+  footer section {
+    width: 24vw;
+    align-self: center;
+  }
+  footer span {
+    display: inline-block;
+  }
+  footer p, footer span {
+    margin: 0;
+  }
+  footer .support-section {
+    width: 12vw;
+  }
+  
+  .cred {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .cred a {
+    font-size: inherit;
+  }
+  

@@ -68,8 +68,11 @@ export default function Header() {
           </div>
         </MediaQuery>
         <MediaQuery minWidth={580}>
+          <div style={{display: 'block', position: 'relative'}}>
           <div className="nav-background">
-            {navigation}
+            
+          </div>
+          <div style={{position: 'sticky', top: 0}}>{navigation}</div>
           </div>
         </MediaQuery>
         </div>
