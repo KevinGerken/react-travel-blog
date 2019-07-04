@@ -1,0 +1,71 @@
+.aboutme-header {
+    background: url(images/aboutme.jpg) center;
+    background-size: cover;
+  }
+  
+  .about {
+    max-width: 700px;
+    margin: auto;
+  }
+  .about img {
+    width: 50%;
+    float: left;
+    margin: 0 1rem;
+  }
+  .about p {
+    margin: 1rem;
+  }
+  
+  .social-links {
+    margin: 3rem;
+  }
+  .social-links ul {
+    max-width: 400px;
+    margin: auto;
+  }
+  .social-links li {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+  }
+  .social-links a {
+    color: #f2f5e2;
+    font-size: 3rem;
+  }
+  .social-links .facebook {
+    background: #3b61b8;
+  }
+  .social-links .twitter {
+    background: #009efa;
+  }
+  .social-links .instagram {
+    background: #bf00b3;
+  }
+  .social-links .youtube {
+    background: red;
+  }
+  .social-links .facebook:hover {
+    background: rgba(59, 97, 184, 0.7);
+  }
+  .social-links .twitter:hover {
+    background: rgba(0, 158, 250, 0.7);
+  }
+  .social-links .instagram:hover {
+    background: rgba(191, 0, 179, 0.7);
+  }
+  .social-links .youtube:hover {
+    background: rgba(255, 0, 0, 0.7);
+  }
+  
+  #map-container {
+    height: 75vh;
+    width: 75vw;
+    max-width: 700px;
+    max-height: 400px;
+    margin: auto;
+  }
+  
+  #map {
+    height: 100%;
+  }
+  
