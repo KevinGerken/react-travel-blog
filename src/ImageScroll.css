@@ -1,0 +1,92 @@
+.picture-roll {
+    margin-top: 1rem;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.picture-roll img {
+height: 200px;
+width: 300px;
+}
+
+.roll-1 {
+position: absolute;
+}
+
+.roll-2 {
+    position: absolute;
+    left: 310px;
+}
+
+.roll-3 {
+    position: absolute;
+    left: 620px;
+}
+
+.roll-4 {
+    position: absolute;
+    left: 930px;
+}
+
+.roll-5 {
+    position: absolute;
+    left: 1240px;
+}
+
+.roll-6 {
+    position: absolute;
+    left: 1550px;
+}
+
+.roll-7 {
+    position: absolute;
+    left: 1860px;
+}
+
+.roll-8 {
+    position: absolute;
+    left: 2170px;
+}
+
+.roll-9 {
+    position: absolute;
+    left: 2480px;
+}
+
+.roll-10 {
+    position: absolute;
+    left: 2790px;
+}
+
+.roll-11 {
+    position: absolute;
+    left: 3100px;
+}
+
+.roll-12 {
+    position: absolute;
+    left: 3410px;
+}
+
+.roll-13 {
+    position: absolute;
+    left: 3720px;
+}
+
+.roll-14 {
+    position: absolute;
+    left: 4030px;
+}
+
+.roll {
+animation: roll 45s linear infinite;
+}
+
+@keyframes roll {
+0% {
+    transform: translateX(0);
+}
+100% {
+    transform: translateX(-2170px);
+}
+}

@@ -1,0 +1,95 @@
+#burger {
+    position: fixed;
+    right: 0.5rem;
+    top: -0.5rem;
+    font-size: 5rem;
+    background: transparent;
+    color: white;
+    border: 0;
+    z-index: 2;
+  }
+  
+  nav {
+    z-index: 2;
+    position: fixed;
+    right: 0.5rem;
+    top: 5rem;
+    min-width: 10rem;
+  }
+  nav a {
+    color: #111;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  nav a:hover {
+    border-radius: 10px;
+    background-color: #fbc398;
+  }
+  nav ul {
+    background: linear-gradient(#fbd9b3, #fbc398);
+    list-style: none;
+    border-radius: 15px;
+  }
+  nav ul li {
+    text-align: center;
+    font-size: 2rem;
+  }
+  nav .contact-button {
+    position: relative;
+    cursor: pointer;
+  }
+  nav .contact-button:hover {
+    border-radius: 10px;
+    background-color: #fbc398;
+  }
+  
+  .contact-menu {
+    position: absolute;
+    display: block;
+    min-width: 7rem;
+    text-align: center;
+    background: linear-gradient(#fbd9b3, #fbc398);
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    border-radius: 15px;
+    min-width: 10rem;
+  }
+  .contact-menu a {
+    display: block;
+    padding: 1rem 0;
+  }
+
+  @media (min-width: 480px) {
+    .nav-background {
+      position: absolute;
+      height: 27px;
+      width: 100%;
+      background-color: #fbc398;
+    }
+  
+    nav {
+      position: relative;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0px;
+      opacity: 1;
+      visibility: visible;
+    }
+    nav ul {
+      background: linear-gradient(#fbd9b3, rgba(251, 195, 152, 0.1));
+      display: flex;
+      justify-content: space-around;
+      border-radius: 0px;
+    }
+    nav ul li {
+      padding: 0 1rem;
+      display: inline;
+    }
+    nav ul a {
+      padding: 0 1rem;
+    }
+  
+    .contact-menu {
+      left: -3rem;
+    }
+  }
