@@ -57,5 +57,6 @@ export default function Support() {
             </p>
             </section>
         </main>
+        
     )
   }
