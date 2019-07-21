@@ -49,7 +49,7 @@ export default function Gear() {
             </p>
             <div className="flex-container">
                 {products.map((product) => ( 
-                    <ProductLink product={product} />
+                    <ProductLink product={product} key={product.name}/>
                 ))}
             </div>
         </article>

@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import ParallaxHeader from './ParallaxHeader';
 import './Header.css';
 
-export default function Header() {
+export default function Header(props) {
     return(
         <header className="Header">
-            <ParallaxHeader />
+            <ParallaxHeader pathname={props.location.pathname}/>
             <h1>
             No Permanent Address
             </h1>

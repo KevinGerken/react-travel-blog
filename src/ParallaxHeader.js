@@ -2,9 +2,16 @@ import React, {useState, useEffect} from 'react';
 import './ParallaxHeader.css';
 import Background from './images/home.jpg';
 
-export default function ParallaxHeader() {
+export default function ParallaxHeader(props) {
+    const headerBackgrounds = {
+        [`/`]: `images/home.jpg`,
+        [`/About`]: `images/aboutme.jpg`,
+        [`/Gear`]: `images/gear.jpg`,
+        [`/Support`]: `images/beach.jpg`
+    }
+    let background = headerBackgrounds[props.pathname];
     let [scroll, setScroll] = useState(0);
-    let style = {transform: `translateY(${scroll}px)`, background: `url(${Background}) center`};
+    let style = {transform: `translateY(${scroll}px)`, background: `url(${background}) center`};
     
     function scrollHandler() {
         setScroll(-window.pageYOffset / 2);

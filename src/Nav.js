@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import MediaQuery from 'react-responsive';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './Nav.css';
 
 export default function Nav () {
@@ -8,24 +9,24 @@ export default function Nav () {
     const navigation = (<nav>
       <ul>
         <li>
-          <a href="index.html">
+          <Link to="/">
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="aboutme.html">
+          <Link to="/About">
             About Me
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="aboutyou.html">
+          <Link to="/Support">
             Support
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="gear.html">
+          <Link to="/Gear">
             Gear
-          </a>
+          </Link>
         </li>
         <li className="contact-button" onClick={() => setContactVis(!contactVis)}>
           Contact
