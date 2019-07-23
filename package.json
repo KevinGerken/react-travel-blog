@@ -1,6 +1,7 @@
 {
   "name": "travel-blog",
   "version": "0.1.0",
+  "homepage": "https://www.kevingerken.com/travel",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",

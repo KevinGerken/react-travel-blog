@@ -14,7 +14,7 @@ function App(props) {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename={'/travel'}>
         <Route path='/' component={Header} />
         <Nav />      
         <Route exact path='/' component={Home} />

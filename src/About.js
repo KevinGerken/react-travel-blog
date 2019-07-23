@@ -51,13 +51,7 @@ export default function About() {
                 </ul>
             </section>
             </article>
-            <article id="map-container">
-            <div id="map"></div>
-            </article>
         </main>
-        <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASHtorzqyJPLdDREPIjcpFSmPmdB0XfJ4&callback=initMap">
-        </script>
         </div>
     )
 }
