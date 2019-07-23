@@ -1,17 +1,17 @@
-import React, {useState, useEffect} from 'react';
+import React, { useEffect, useState } from 'react';
 import './ParallaxHeader.css';
-import Background from './images/home.jpg';
 
 export default function ParallaxHeader(props) {
     const headerBackgrounds = {
         [`/`]: `images/home.jpg`,
         [`/About`]: `images/aboutme.jpg`,
         [`/Gear`]: `images/gear.jpg`,
-        [`/Support`]: `images/beach.jpg`
+        [`/Support`]: `images/beach.jpg`,
+        [`/article`]: `../images/cuba.jpg`
     }
-    let background = headerBackgrounds[props.pathname];
+    const background = headerBackgrounds[props.pathname];
     let [scroll, setScroll] = useState(0);
-    let style = {transform: `translateY(${scroll}px)`, background: `url(${background}) center`};
+    let style = {transform: `translateY(${scroll}px)`, backgroundImage: `url(${background})`};
     
     function scrollHandler() {
         setScroll(-window.pageYOffset / 2);

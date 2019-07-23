@@ -1,20 +1,19 @@
 import React from 'react';
 import './ProductLink.css';
-import { tsConstructorType } from '@babel/types';
 
 export default function ProductLink(props)   {
   
   const {name, image, description} = props.product;
     return (
-        <section class="product">
-        <div class="amazon">
-          <img src="images/amazon.png" />
-          <img src={`images/${image}`} />
+        <section className="product">
+        <div className="amazon">
+          <img src="images/amazon.png" alt="..." />
+          <img src={`images/${image}` } alt="..." />
         </div>
-        <p class="name">
+        <p className="name">
           {name}
         </p>
-        <p class="description">
+        <p className="description">
           {description}
         </p>
       </section>

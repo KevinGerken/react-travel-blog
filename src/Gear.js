@@ -1,7 +1,7 @@
 import React from 'react';
+import './Gear.css';
 import ImageScroll from './ImageScroll';
 import ProductLink from './ProductLink';
-import './Gear.css';
 
 export default function Gear() {
     const products = [
@@ -40,7 +40,7 @@ export default function Gear() {
     return(
         <div>
         <ImageScroll />
-        <article class="gear">
+        <article className="gear">
             <h1>
                 What I use
             </h1>

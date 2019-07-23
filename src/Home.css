@@ -1,0 +1,16 @@
+.blog-tease {
+    margin: 10%;
+    padding: 10%;
+    border-radius: 15px;
+    background: #fbd9b3;
+    border: 2px solid #fbc398;
+  }
+  .blog-tease img {
+    width: 50%;
+    float: right;
+    margin: 1rem;
+  }
+  
+  .date, .blog-link, .older {
+    text-align: right;
+  }

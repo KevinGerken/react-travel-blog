@@ -1,13 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Header from './Header';
-import Nav from './Nav';
-import Home from './Home'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import About from './About';
-import Support from './Support';
-import Gear from './Gear';
-import Footer from './Footer';
 import './App.css';
+import Article from './Article';
+import Footer from './Footer';
+import Gear from './Gear';
+import Header from './Header';
+import Home from './Home';
+import Nav from './Nav';
+import Support from './Support';
 
 function App(props) {
 
@@ -20,6 +21,7 @@ function App(props) {
         <Route path='/About' component={About} />
         <Route path='/Gear' component={Gear} />
         <Route path='/Support' component={Support} />
+        <Route path='/article/:id' component={Article} />
       </Router>
       <Footer />
     </div>

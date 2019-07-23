@@ -1,12 +1,12 @@
 import React from 'react';
-import judyImg from './images/judy.jpg';
 import './About.css';
+import judyImg from './images/judy.jpg';
 
 export default function About() {
     return(
         <div>
-        <main class="about-me">
-            <article class="about">
+        <main className="about-me">
+            <article className="about">
             <img src={judyImg} alt="Judy seaside in white." />
             <div>
                 <p>
@@ -26,26 +26,26 @@ export default function About() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus optio vel esse pariatur officiis dignissimos tempora mollitia expedita hic, sit illo quibusdam temporibus. Nisi temporibus blanditiis aperiam laudantium, reprehenderit omnis?
                 </p>
             </div>
-            <section class="social-links">
-                <ul class="flex-container">
-                <li class="flex-container facebook">
+            <section className="social-links">
+                <ul className="flex-container">
+                <li className="flex-container facebook">
                     <a href="https://www.facebook.com/">
-                    <i class="fab fa-facebook-f"></i>
+                    <i className="fab fa-facebook-f"></i>
                     </a>
                 </li>
-                <li class="flex-container twitter">
+                <li className="flex-container twitter">
                     <a href="https://twitter.com/">
-                    <i class="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                     </a>
                 </li>
-                <li class="flex-container instagram">
+                <li className="flex-container instagram">
                     <a href="https://www.instagram.com/">
-                    <i class="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                     </a>
                 </li>
-                <li class="flex-container youtube">
+                <li className="flex-container youtube">
                     <a href="https://www.youtube.com/">
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                     </a>
                 </li>
                 </ul>

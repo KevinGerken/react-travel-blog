@@ -3,7 +3,7 @@ import './Support.css';
 
 export default function Support() {
     return(
-        <main class="about-you">
+        <main className="about-you">
             <h1>
             Get behind the scenes info
             </h1>
@@ -13,11 +13,11 @@ export default function Support() {
             <p>
             Without people like you this blog would not and could not exist. Thank You!
             </p>
-            <div class="flex-container">
+            <div className="flex-container">
             <img src="images/monkey.jpg" alt="A monkey sitting on the beach." />
             <img src="images/tuk.jpg" alt="A colorful tuk tuk." />
             </div>
-            <section class="patreon support">
+            <section className="patreon support">
             <div>
                 <a href="https://www.patreon.com/">
                 <img src="images/patreon.png" alt="Support my work on Patreon logo" />
@@ -38,7 +38,7 @@ export default function Support() {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ut exercitationem, ullam ad delectus quo blanditiis necessitatibus, dolorem placeat dicta nihil magni voluptate fugiat suscipit odio nisi explicabo nostrum recusandae.
             </p>
             </section>
-            <section class="paypal support">
+            <section className="paypal support">
             <div>
                 <a href="https://paypal.com">
                 <img src="images/paypal4.png" alt="Paypal logo" />
@@ -57,6 +57,5 @@ export default function Support() {
             </p>
             </section>
         </main>
-        
     )
   }
